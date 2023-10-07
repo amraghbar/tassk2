@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register </title>
+</head>
+<body>
+    <h1>BOB Wings</h1>
+    <img src="image/2.jpg" width="600px" alt="Logo Bob Wings" style="float: left;"/>
+    <ol type="none" > 
+<li> <a href="about.html" target="_blank">About </a> </li>
+<li> <a href="contact.html" target="_blank" >Contact</a>   </li>
+<li> <a href="register.html" target="_blank"> Register</a>  </li>
+<li> <a href="login.html"target="_blank">Login</a>  </li>
+<li> <a href="wishlist.html"target="_blank"> Wishlist</a></li>
+<li> <a href="menu.html"target="_blank"> Menu</a></li>
+<li> <a href="orders.html"target="_blank"> Orders</a></li>
+
+    </ol>
+    <br/> 
+<br/>
+<form name="myform" method="post">
+	<table border="1">
+	<caption style="font-size: +4;"> Registration Data  </caption>
+	<tr> <td > User Name </td> <td > <input type="text" name="username" /> </td> </tr>
+	<tr> <td> Password </td> <td> <input type="password" name="ps" /> </td> </tr>
+	<tr> <td> Confirm Password </td> <td> <input type="password" name="cps" /> </td></tr>
+	<tr> <td> Address in Nablus </td>
+	
+		<td>
+			<select name="address">
+			<option value="none"> select address  </option>
+			<option value="rafedia"> Rafedia </option>
+			<option value="makhfeya"> Makhfeya </option>
+			<option value="center"> Al Dowar  </option>
+			<option value="faisal">Faisal Street</option>
+			<option value="yafa">Yafa Street</option>
+			</select>
+		</td>
+	</tr>
+	<tr> <td> Gender </td><td> <input type="radio" name="gender" value="1" /> Male <input type="radio" name="gender" value="0" /> Female</td></tr>
+	<tr> <td> Phone  </td><td> <input type="number" name="phone" /></td></tr>
+	<tr> <td> Email </td><td> <input type="email" name="email" /> </td></tr>
+	<tr> <td colspan="2" align="center"> <input type="button" value="Register" style="width: 100px;border-radius: 15px"  />  <input type="reset" value="Clear" style="width: 100px;border-radius: 15px" /> </td></tr>
+	</table>
+ </form>
+
+
+</body>
+</html>
